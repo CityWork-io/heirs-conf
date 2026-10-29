@@ -675,13 +675,13 @@ strong { color: var(--text); font-weight: 700; }
     </figure>
     <figure class="regional-rate-figure">
       <div class="regional-figure-heading"><h3>Share of parcels flagged</h3></div>
-      <div class="locality-chart" role="img" aria-label="Flagged parcel rates by jurisdiction. Petersburg 4.88 percent. Colonial Heights 4.12 percent. Hopewell 3.75 percent. Richmond City 2.46 percent. Henrico 1.94 percent. Chesterfield 1.59 percent. Regional rate 2.12 percent.">
+      <div class="locality-chart" role="img" aria-label="Flagged parcel rates by jurisdiction. Petersburg 4.88 percent. Colonial Heights 4.12 percent. Hopewell 3.75 percent. Richmond City 2.46 percent, 1,892 flagged parcels. Henrico 1.94 percent. Chesterfield 1.59 percent. Regional rate 2.12 percent.">
         <div class="rate-guides" aria-hidden="true"><div class="regional-rate-line"><span>Region 2.12%</span></div></div>
         <ol class="locality-rows" aria-hidden="true">
         <li class="locality-row"><span class="locality-label">Petersburg</span><span class="rate-track"><span class="rate-bar" style="width:97.60%;"></span></span><span class="rate-value">4.88%</span></li>
         <li class="locality-row"><span class="locality-label">Colonial Heights</span><span class="rate-track"><span class="rate-bar" style="width:82.40%;"></span></span><span class="rate-value">4.12%</span></li>
         <li class="locality-row"><span class="locality-label">Hopewell</span><span class="rate-track"><span class="rate-bar" style="width:75.00%;"></span></span><span class="rate-value">3.75%</span></li>
-        <li class="locality-row"><span class="locality-label">Richmond City</span><span class="rate-track"><span class="rate-bar" style="width:49.20%;"></span></span><span class="rate-value">2.46%</span></li>
+        <li class="locality-row"><span class="locality-label locality-richmond">Richmond City<span class="locality-count">1,892 parcels</span></span><span class="rate-track"><span class="rate-bar" style="width:49.20%;"></span></span><span class="rate-value">2.46%</span></li>
         <li class="locality-row"><span class="locality-label">Henrico</span><span class="rate-track"><span class="rate-bar" style="width:38.80%;"></span></span><span class="rate-value">1.94%</span></li>
         <li class="locality-row"><span class="locality-label">Chesterfield</span><span class="rate-track"><span class="rate-bar" style="width:31.80%;"></span></span><span class="rate-value">1.59%</span></li>
         </ol>
@@ -699,6 +699,8 @@ strong { color: var(--text); font-weight: 700; }
     #slide-6 .locality-rows {list-style:none;display:flex;flex-direction:column;justify-content:space-around;height:calc(100% - 31px);position:relative;}
     #slide-6 .locality-row {display:grid;grid-template-columns:var(--label) minmax(0,1fr) var(--value);gap:10px;align-items:center;min-height:42px;}
     #slide-6 .locality-label {font-size:clamp(15px,1.4vw,20px);line-height:1.25;color:var(--text);}
+    #slide-6 .locality-richmond {position:relative;}
+    #slide-6 .locality-count {position:absolute;top:calc(100% + 4px);left:0;display:block;font-family:var(--font-body);font-size:clamp(14px,1.15vw,16px);line-height:1.25;font-weight:400;color:#000;white-space:nowrap;}
     #slide-6 .rate-track {display:block;height:25px;}
     #slide-6 .rate-bar {display:block;height:100%;background:#5e87ae;}
     #slide-6 .rate-value {font-size:clamp(17px,1.5vw,21px);font-weight:500;font-variant-numeric:tabular-nums;}
@@ -1216,7 +1218,7 @@ strong { color: var(--text); font-weight: 700; }
 <section class="slide" id="slide-14">
   <div class="contact-layout">
     <div class="contact-details">
-      <h2>More Questions?</h2>
+      <h2>More Questions?<br>Happy to Answer Them!</h2>
       <h3>Alex Fella</h3>
       <a class="contact-email" href="mailto:alex.fella@citywork.io?subject=Following%20up%20on%20your%20talk&amp;body=Hi%20Alex%2C%0D%0AI%20attended%20your%20talk%20on%20heirs%27%20properties.">alex.fella@citywork.io</a>
     </div>
